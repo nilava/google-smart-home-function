@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [{
+      "source": "/smarthome",
+      "function": "smarthome"
+    }],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "functions": {
+    "predeploy": [
+      ""
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "inputs": [{
+        "intent": "action.devices.QUERY",
+        "payload": {
+            "devices": [{
+                "customData": {
+                    "key1": "583e597dbe4a4d6690068a03a1c967a1",
+                    "key2": "D2",
+                    "key3": "",
+                    "key4": ""
+                },
+                "id": "62274084"
+            }, {
+                "customData": {
+                    "key1": "583e597dbe4a4d6690068a03a1c967a1",
+                    "key2": "V2",
+                    "key3": "",
+                    "key4": ""
+                },
+                "id": "6130153"
+            }, {
+                "customData": {
+                    "key1": "583e597dbe4a4d6690068a03a1c967a8",
+                    "key2": "V1",
+                    "key3": "",
+                    "key4": ""
+                },
+                "id": "1997376"
+            }]
+        }
+    }],
+    "requestId": "1961933622028833820"
+}

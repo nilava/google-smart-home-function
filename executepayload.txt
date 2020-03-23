@@ -1,0 +1,44 @@
+{
+    "inputs": [{
+        "context": {
+            "locale_language": "en"
+        },
+        "intent": "action.devices.EXECUTE",
+        "payload": {
+            "commands": [{
+                "devices": [{
+                    "customData": {
+                        "key1": "583e597dbe4a4d6690068a03a1c967a1",
+                        "key2": "D2",
+                        "key3": "",
+                        "key4": ""
+                    },
+                    "id": "62274084"
+                }, {
+                    "customData": {
+                        "key1": "583e597dbe4a4d6690068a03a1c967a1",
+                        "key2": "V2",
+                        "key3": "",
+                        "key4": ""
+                    },
+                    "id": "6130153"
+                }, {
+                    "customData": {
+                        "key1": "583e597dbe4a4d6690068a03a1c967a8",
+                        "key2": "V1",
+                        "key3": "",
+                        "key4": ""
+                    },
+                    "id": "1997376"
+                }],
+                "execution": [{
+                    "command": "action.devices.commands.OnOff",
+                    "params": {
+                        "on": true
+                    }
+                }]
+            }]
+        }
+    }],
+    "requestId": "2960480999403263058"
+}
